@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="rounded-3 py-5 px-4 px-md-5 mb-5">
+      <div class="text-center mb-5">
+        <h1 class="fw-bolder">Contact us!</h1>
+        <p class="lead fw-normal text-muted mb-0">Something to say? Email us!</p>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+          <form id="contact_form">
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name...">
+              <label for="name">Full name</label>
+              <div class="invalid-feedback">A name is required.</div>
+            </div>
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com">
+              <label for="email">Email address</label>
+              <div class="invalid-feedback">An email is required.</div>
+              <div class="invalid-feedback">Email is not valid.</div>
+            </div>
+            <div class="form-floating mb-3">
+              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890">
+              <label for="phone">Phone number</label>
+              <div class="invalid-feedback">A phone number is required.</div>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 8rem"></textarea>
+              <label for="message">Message</label>
+              <div class="invalid-feedback">A message is required.</div>
+            </div>
+            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitBtn" type="submit">Submit</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div><!-- row -->
+</div><!-- container -->
